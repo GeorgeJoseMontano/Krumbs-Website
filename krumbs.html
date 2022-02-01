@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+<!-- Cloned by RabinsXP.com-->
+<head>
+    <title>Krumbs | Web and Mobile Design</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="web design, web development">
+    <meta name="author" content="krumbs">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico"><!--FIx-->
+
+    <!-- Web Fonts -->
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'><!--FIx-->
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css"><!--PLACE CDN-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- CSS Header and Footer -->
+    <link rel="stylesheet" href="assets/css/headers/header-v6.css">
+    <link rel="stylesheet" href="assets/css/footers/footer-v6.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/animate.css"><!--PLACE CDN-->
+    <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css"><!--PLACE CDN-->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css"><!--PLACE CDN-->
+    <link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/css/cubeportfolio.min.css"><!--PLACE CDN-->
+    <link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/custom/custom-cubeportfolio.css"><!--PLACE CDN-->
+    <link rel="stylesheet" href="assets/plugins/animated-headline/css/animated-headline.css"><!--PLACE CDN-->
+
+    <!-- CSS Theme
+    <link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color">
+    <link rel="stylesheet" href="assets/css/theme-skins/dark.css"> -->
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+
+<body class="header-fixed">
+<!--=== Style Switcher ===-->
+<i class="style-switcher-btn fa fa-phone hidden-xs"></i>
+<div class="style-switcher animated fadeInRight">
+    <div class="style-swticher-header">
+        <div class="style-switcher-heading">Contact Us</div>
+        <div class="theme-close"><i class="icon-close"></i></div>
+    </div>
+
+    <div class="style-swticher-body">
+        <!-- Theme Colors -->
+        <div class="style-switcher-heading">Email Address</div>
+        <ul class="list-unstyled">
+            <p style="color:#fff;margin-left:5%"><i class="fa fa-envelope-o" aria-hidden="true"></i> - team@krumbs.ph</p><!--create CSS-->
+            
+        </ul>
+
+        <!-- Theme Skins -->
+        <div class="style-switcher-heading">Mobile Number</div>
+        <ul class="list-unstyled">
+            <p style="color:#fff;margin-left:5%"><i class="fa fa-mobile" aria-hidden="true"></i> - (+63)9xxxxxxxxx</p><!--create CSS-->            
+        </ul>
+
+        <hr>
+
+        <!-- Layout Styles -->
+        <div class="style-switcher-heading">Address</div>
+        <ul class="list-unstyled">
+            <p style="color:#fff;margin-left:5%"><i class="fa fa-map-marker" aria-hidden="true"></i> - Ortigas Center, Pasig, Metro Manila</p> <!--create CSS-->           
+        </ul>
+
+        <hr>
+
+        <!-- Theme Type -->
+        <div class="style-switcher-heading">Extra</div>
+        <ul class="list-unstyled">
+            <p style="color:#fff;margin-left:5%">etc.</p>            
+        </ul>
+
+    </div>
+</div><!--/style-switcher-->
+<!--=== End Style Switcher ===-->
+
+<div class="wrapper">
+    <!--=== Header v6 ===-->
+    <div class="header-v6 header-dark-transparent header-sticky">
+        <!-- Navbar -->
+        <div class="navbar mega-menu" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display aka BURGER-->
+                <div class="menu-container">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <!-- Navbar Logo -->
+                    <div class="navbar-brand">
+                        <a href="index-2.html">
+                            <img class="default-logo " src="assets/img/krumbs-logo.png" alt="Logo">
+                            <img class="shrink-logo" src="assets/img/krumbs-logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <!-- ENd Navbar Logo -->
+
+                    <!-- Header Inner Right 
+                    <div class="header-inner-right">
+                        <ul class="menu-icons-list">
+                            <li class="menu-icons shopping-cart">
+                                <i class="menu-icons-style radius-x fa fa-shopping-cart"></i>
+                                <span class="badge">0</span>
+                                <div class="shopping-cart-open">
+                                    <span class="shc-title">No products in the Cart</span>
+                                    <button type="button" class="btn-u"><i class="fa fa-shopping-cart"></i> Cart</button>
+                                    <span class="shc-total">Total: <strong>$0.00</strong></span>
+                                </div>
+                            </li>
+                            <li class="menu-icons">
+                                <i class="menu-icons-style search search-close search-btn fa fa-search"></i>
+                                <div class="search-open">
+                                    <input type="text" class="animated fadeIn form-control" placeholder="Start searching ...">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                     End Header Inner Right -->
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-responsive-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav">
+							<!-- Home -->
+							<li class="page-scroll">
+								<a href="#home" >
+									Home
+								</a>						
+							</li class="page-scroll">
+						    <!-- End Home -->
+
+                            <!-- About Us -->
+                            <li class="page-scroll">
+                                <a href="#about" >
+                                    About Us
+                                </a>
+                                
+                            </li class="page-scroll">
+                            <!-- About Us -->
+
+                            <!-- Services -->
+                            <li>
+                                <a href="#services" >
+                                    Services
+                                </a>                                
+                            </li class="page-scroll">
+                            <!-- End Services-->
+
+                            <!-- Contact -->
+                            <li>
+                                <a data-toggle="modal" data-target="#contact-modal" href="#contact-modal" class="smoothScroll">
+                                    Contact Us
+                                </a>                                
+                            </li>
+                            <!-- End Contact -->
+
+                        </ul>
+                    </div>
+                </div><!--/navbar-collapse-->
+            </div>
+        </div>
+        <!-- End Navbar -->
+    </div>
+    <!--=== End Header v6 ===-->
+
+    <!-- Interactive Slider v2 -->
+    <div class="interactive-slider-v2 interactive-slider-v2-md img-v3"  id="home">
+        <div class="container">
+            <img class="default-logo img-responsive center-block animated bounceIn" src="assets/img/fulllogo.png" alt="Logo">
+            <h1 class="cd-headline letters type">
+                <!--<span>We </span>-->
+                <span class="cd-words-wrapper">
+                    <b class="is-visible">Design</b>
+                    <b>Develop</b>
+                    <b>Deploy</b>
+                </span>
+            </h1>
+            <p>TIME TO PUT YOUR BUSINESS ONLINE</p>
+        </div>
+    </div>
+    <!-- End Interactive Slider v2 -->
+
+    <!--=== About Us ===-->
+    <div class="container content-md" id="about">
+        <div class="row">
+            <div class="col-md-6 md-margin-bottom-40">
+                <h2 class="title-v2">ABOUT US</h2>
+                <p>KRUMBS create custom websites and applications for both new and old businesses in the Philippines. We help our clients get their desired business success by connecting their brand to the world thru the internet, appealing design and great service. Contact us today so we can start putting your business online!</p><br>
+                <!--<a href="#" class="btn-u btn-brd btn-brd-hover btn-u-dark">Read More</a>
+                <a href="#" class="btn-u">Purchase Now</a>-->
+            
+                <div class="col-xs-12 content-boxes-v3 margin-bottom-40">
+                    <div class="clearfix margin-bottom-30">
+                        <i class="icon-custom icon-md rounded-x icon-bg-u icon-line icon-trophy"></i>
+                        <div class="content-boxes-in-v3">
+                            <h2 class="heading-sm">Innovation Leader</h2>
+                            <p>We are focused on helping our clients to build a successful business on web and mobile.</p>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <i class="icon-custom icon-md rounded-x icon-bg-u icon-line icon-directions"></i>
+                        <div class="content-boxes-in-v3">
+                            <h2 class="heading-sm">Best Solutions &amp; Approaches</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+                
+            <div class="col-md-6 overflow-h">
+                <img class="img-responsive wow animated fadeInUp" data-wow-duration="1.5s" src="assets/img/mockup/mockup1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--=== End About Us ===-->
+
+    <!--=== Full Width Blocks ===-->
+    <div class="container-fluid bg-color-darker">
+        <div class="row equal-height-columns no-gutter">
+            <div class="col-md-6">
+                <img class="img-responsive full-width equal-height-column" src="assets/img/bg/img9.jpg" alt="">
+            </div>
+
+            <div class="col-md-6 equal-height-column text-center dp-table">
+                <div class="content-boxes-v3 dp-table-cell quote-v1 parallaxBg">
+                    <p>Write something inspirational here.</p>
+                    <span>Karl Sinocruz, <a href="#">CEO, Project Manager</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=== End Full Width Blocks ===-->
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container content-lg">
+            <div class="title-v1">
+                <h2>Our Services</h2>
+                <p>We do <strong>things</strong> differently company providing key digital services. <br>
+                Focused on helping our clients to build a <strong>successful</strong> business on web and mobile.</p>
+            </div>
+
+            <div class="row service-box-v1">
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-block service-block-default">
+                        <img class="img-responsive center-block" src="assets/img/design.png" alt="">
+                        <h2 class="heading-md">Web &amp; Graphic Design</h2>
+                        <p></p>
+                        <ul class="list-unstyled">
+                            <li>Logo &amp; Brand Design</li>
+                            <li>Photography</li>
+                            <li>Business Cards</li>
+                            <li>App &amp; Icon Design</li>
+                            <li>Responsive Web Design</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-block service-block-default">
+                        <img class="img-responsive center-block" src="assets/img/develop.png" alt="">
+                        <h2 class="heading-sm">Web Development</h2>
+                        <p></p>
+                        <ul class="list-unstyled">
+                            <li>Website Development</li>
+                            <li>Mobile Development</li>
+                            <li>Email Marketing</li>
+                            <li>Placeholder</li>
+                            <li>Placeholder</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="service-block service-block-default">
+                        <img class="img-responsive center-block" src="assets/img/deploy.png" alt="">
+                        <h2 class="heading-sm">SEO &amp; Advertising</h2>
+                        <p></p>
+                        <ul class="list-unstyled">
+                            <li>Google AdSense</li>
+                            <li>Social Media</li>
+                            <li>Display Advertising</li>
+                            <li>Placeholder</li>
+                            <li>Analysis &amp; Consulting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <ul class="list-unstyled row portfolio-box-v1">
+            <li class="col-sm-4">
+                <img class="img-responsive" src="assets/img/mockup/img1.jpg" alt="">
+                <div class="portfolio-box-v1-in">
+                    <h3>Collective Package</h3>
+                    <p>Web Design, Mock-up</p>
+                    <a class="btn-u btn-u-sm btn-brd btn-brd-hover btn-u-light" href="#">Read More</a>
+                </div>
+            </li>
+            <li class="col-sm-4">
+                <img class="img-responsive" src="assets/img/mockup/img2.jpg" alt="">
+                <div class="portfolio-box-v1-in">
+                    <h3>Ahola Company</h3>
+                    <p>Brand Design, UI</p>
+                    <a class="btn-u btn-u-sm btn-brd btn-brd-hover btn-u-light" href="#">Read More</a>
+                </div>
+            </li>
+            <li class="col-sm-4">
+                <img class="img-responsive" src="assets/img/mockup/img4.jpg" alt="">
+                <div class="portfolio-box-v1-in">
+                    <h3>Allan Project</h3>
+                    <p>Web Development, HTML5</p>
+                    <a class="btn-u btn-u-sm btn-brd btn-brd-hover btn-u-light" href="#">Read More</a>
+                </div>
+            </li>
+        </ul>
+
+        <!--<div class="call-action-v1">
+            <div class="container">
+                <div class="call-action-v1-box">
+                    <div class="call-action-v1-in">
+                        <p>Unify creative technology company providing key digital services and focused on helping our clients to build a successful business on web and mobile.</p>
+                    </div>
+                    <div class="call-action-v1-in inner-btn page-scroll">
+                        <a href="#portfolio" class="btn-u btn-brd btn-brd-hover btn-u-dark btn-u-block">View Our Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </section>
+    <!-- End Services Section -->
+
+       
+
+    
+
+ 
+
+    <!--=== Colorfull Blocks ===-->
+    <div class="container-fluid">
+        <div class="row no-gutter equal-height-columns">
+            <div class="col-sm-4">
+                <div class="service-block service-block-purple no-margin-bottom content equal-height-column">
+                    <i class="icon-custom icon-md rounded icon-color-light icon-line icon-badge"></i>
+                    <h2 class="font-light">Best Solutions</h2>
+                    <p class="no-margin-bottom font-light">Provide; shifting landscape reduce carbon emissions human potential sustainability Jane Addams solve. Global network; care Rockefeller, vaccines equal opportunity human being.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="service-block service-block-red no-margin-bottom content equal-height-column">
+                    <i class="icon-custom icon-md rounded icon-color-light icon-line icon-layers"></i>
+                    <h2 class="font-light">Excellent Features</h2>
+                    <p class="no-margin-bottom font-light">Provide; shifting landscape reduce carbon emissions human potential sustainability Jane Addams solve. Global network; care Rockefeller, vaccines equal opportunity human being.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="service-block service-block-blue no-margin-bottom content equal-height-column">
+                    <i class="icon-custom icon-md rounded icon-color-light icon-line icon-support"></i>
+                    <h2 class="font-light">Stunning Support</h2>
+                    <p class="no-margin-bottom font-light">Provide; shifting landscape reduce carbon emissions human potential sustainability Jane Addams solve. Global network; care Rockefeller, vaccines equal opportunity human being.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=== End Colorfull Blocks ===-->
+
+    <!--=== Cube Portfolio ===-->
+    <div class="container content-md">
+        <div class="text-center margin-bottom-30">
+            <h2 class="title-v2 title-center">LATEST PROJECTS</h2>
+            <p class="space-lg-hor">If you are going to use a <span class="color-green">passage of Lorem Ipsum</span>, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making <span class="color-green">this the first</span> true generator on the Internet.</p>
+        </div>
+
+        <div class="cube-portfolio container margin-bottom-20">
+            <div class="margin-bottom-30">
+                <div id="filters-container" class="cbp-l-filters-text">
+                    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> All </div> |
+                    <div data-filter=".illustration" class="cbp-filter-item"> Illustration </div> |
+                    <div data-filter=".web-design" class="cbp-filter-item"> Web Design </div> |
+                    <div data-filter=".graphic" class="cbp-filter-item"> Graphic </div> |
+                    <div data-filter=".logo" class="cbp-filter-item"> Logo </div>
+                </div><!--/end Filters Container-->
+            </div>
+
+            <div id="grid-container" class="cbp-l-grid-gallery">
+                <div class="cbp-item illustration web-design">
+                    <a href="assets/ajax/cube-portfolio/project1.html" class="cbp-caption cbp-singlePageInline"
+                       data-title="World Clock Widget<br>by Paul Flavius Nechita">
+                        <div class="cbp-caption-defaultWrap">
+                            <img src="assets/img/portfolio/20.jpg" alt="">
+                        </div>
+                        <div class="cbp-caption-activeWrap">
+                            <div class="cbp-l-caption-alignLeft">
+                                <div class="cbp-l-caption-body">
+                                    <div class="cbp-l-caption-title">Paul Flavius</div>
+                                    <div class="cbp-l-caption-desc">Development</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cbp-item web-design logo">
+                    <a href="assets/ajax/cube-portfolio/project2.html" class="cbp-caption cbp-singlePageInline"
+                       data-title="Bolt UI<br>by Tiberiu Neamu">
+                        <div class="cbp-caption-defaultWrap">
+                            <img src="assets/img/portfolio/19.jpg" alt="">
+                        </div>
+                        <div class="cbp-caption-activeWrap">
+                            <div class="cbp-l-caption-alignLeft">
+                                <div class="cbp-l-caption-body">
+                                    <div class="cbp-l-caption-title">Tiberiu Neamu</div>
+                                    <div class="cbp-l-caption-desc">Web-Design</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cbp-item illustration web-design">
+                    <a href="assets/ajax/cube-portfolio/project3.html" class="cbp-caption cbp-singlePageInline"
+                       data-title="WhereTO App<br>by Tiberiu Neamu">
+                        <div class="cbp-caption-defaultWrap">
+                            <img src="assets/img/portfolio/21.jpg" alt="">
+                        </div>
+                        <div class="cbp-caption-activeWrap">
+                            <div class="cbp-l-caption-alignLeft">
+                                <div class="cbp-l-caption-body">
+                                    <div class="cbp-l-caption-title">Tiberiu Neamu</div>
+                                    <div class="cbp-l-caption-desc">Illustration</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cbp-item web-design illustration">
+                    <a href="assets/ajax/cube-portfolio/project4.html" class="cbp-caption cbp-singlePageInline"
+                       data-title="iDevices<br>by Tiberiu Neamu">
+                        <div class="cbp-caption-defaultWrap">
+                            <img src="assets/img/portfolio/22.jpg" alt="">
+                        </div>
+                        <div class="cbp-caption-activeWrap">
+                            <div class="cbp-l-caption-alignLeft">
+                                <div class="cbp-l-caption-body">
+                                    <div class="cbp-l-caption-title">Tiberiu Neamu</div>
+                                    <div class="cbp-l-caption-desc">Illustration</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cbp-item web-design graphic">
+                    <a href="assets/ajax/cube-portfolio/project5.html" class="cbp-caption cbp-singlePageInline"
+                       data-title="Seemple* Music for iPad<br>by Tiberiu Neamu">
+                        <div class="cbp-caption-defaultWrap">
+                            <img src="assets/img/portfolio/24.jpg" alt="">
+                        </div>
+                        <div class="cbp-caption-activeWrap">
+                            <div class="cbp-l-caption-alignLeft">
+                                <div class="cbp-l-caption-body">
+                                    <div class="cbp-l-caption-title">Tiberiu Neamu</div>
+                                    <div class="cbp-l-caption-desc">Illustration</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cbp-item illustration web-design graphic">
+                    <a href="assets/ajax/cube-portfolio/project6.html" class="cbp-caption cbp-singlePageInline"
+                       data-title="Remind~Me Widget<br>by Tiberiu Neamu">
+                        <div class="cbp-caption-defaultWrap">
+                            <img src="assets/img/portfolio/23.jpg" alt="">
+                        </div>
+                        <div class="cbp-caption-activeWrap">
+                            <div class="cbp-l-caption-alignLeft">
+                                <div class="cbp-l-caption-body">
+                                    <div class="cbp-l-caption-title">Tiberiu Neamu</div>
+                                    <div class="cbp-l-caption-desc">Web-Design</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div><!--/end Grid Container-->
+        </div>
+    </div>
+    <!--=== End Cube Portfolio ===-->
+
+    <!--=== Parallax Counter v1 ===-->
+    <div class="parallax-counter-v1 parallaxBg">
+        <div class="container">
+            <h2 class="title-v2 title-light title-center">SOME FACTS AND SERVICES</h2>
+            <p class="space-xlg-hor text-center color-light">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+
+            <div class="margin-bottom-40"></div>
+
+            <div class="row">
+                <div class="col-sm-3 col-xs-6 md-margin-bottom-20">
+                    <div class="counters">
+                        <span class="counter">10629</span>
+                        <h4>Users</h4>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6 md-margin-bottom-20">
+                    <div class="counters">
+                        <span class="counter">277</span>
+                        <h4>Projects</h4>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="counters">
+                        <span class="counter">78</span>
+                        <h4>Team Members</h4>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="counters">
+                        <span class="counter">109</span>
+                        <h4>Awards</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=== End Parallax Counter v1 ===-->
+
+    <!--=== News Block ===-->
+    <div class="container content-md">
+        <div class="text-center margin-bottom-50">
+            <h2 class="title-v2 title-center">RECENT NEWS</h2>
+            <p class="space-lg-hor">If you are going to use a <span class="color-green">passage of Lorem Ipsum</span>, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making <span class="color-green">this the first</span> true generator on the Internet.</p>
+        </div>
+
+        <div class="row news-v2">
+            <div class="col-md-4 md-margin-bottom-30">
+                <div class="news-v2-badge">
+                    <img class="img-responsive" src="assets/img/main/img12.jpg" alt="">
+                    <p>
+                        <span>26</span>
+                        <small>Feb</small>
+                    </p>
+                </div>
+                <div class="news-v2-desc bg-color-light">
+                    <h3><a href="#">Corrupti Quos Dolores</a></h3>
+                    <small>By Admin | <a class="color-inherit" href="#">16 Comments</a> | In <a href="#">Web Trends</a></small>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                </div>
+            </div>
+            <div class="col-md-4 md-margin-bottom-30">
+                <div class="news-v2-badge">
+                    <img class="img-responsive" src="assets/img/main/img3.jpg" alt="">
+                    <p>
+                        <span>24</span>
+                        <small>Feb</small>
+                    </p>
+                </div>
+                <div class="news-v2-desc bg-color-light">
+                    <h3><a href="#">Blanditi Praesium Voluptum</a></h3>
+                    <small>By Admin | <a class="color-inherit" href="#">51 Comments</a> | In <a href="#">Art &amp; Design</a></small>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="news-v2-badge">
+                    <img class="img-responsive" src="assets/img/main/img16.jpg" alt="">
+                    <p>
+                        <span>21</span>
+                        <small>Feb</small>
+                    </p>
+                </div>
+                <div class="news-v2-desc bg-color-light">
+                    <h3><a href="#">Key Digital Services</a></h3>
+                    <small>By Admin | <a class="color-inherit" href="#">32 Comments</a> | In <a href="#">Google &amp; Android</a></small>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=== End News Block ===-->
+
+    <!--=== Hire Block ===-->
+    <div class="bg-color-light">
+        <div class="container content-sm">
+            <div class="headline-center">
+                <h2>WE ARE HIRING!</h2>
+                <p class="space-lg-hor">Lorem ipsum dolor <span class="color-green">sit amet consectetur</span> adipiscing elit. Nam eget varius leo, at elementum eros. Fusce tristique, ipsum egestas fermentum imperdiet, ex nunc iaculis sem, a semper augue turpis ut nulla. Nam condimentum arcu eu diam <span class="color-green">gravida cursus</span> morbi ante eros.</p><br>
+            </div>
+            <img class="img-responsive img-center wow animated fadeInUp" src="assets/img/map-img-v1.png" alt="">
+        </div>
+    </div>
+    <!--=== End Hire Block ===-->
+
+    <!--=== Subscribe Form ===-->
+    <div class="quote-subscribe bg-color-green">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 md-margin-bottom-20">
+                    <h2>Get a <strong>QUOTE</strong> Now!</h2>
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Email your email...">
+                        <span class="input-group-btn">
+                            <button class="btn" type="button"><i class="fa fa-envelope-o"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div><!--/end container-->
+    </div>
+    <!--=== Subscribe Form ===-->
+
+    <!--=== Footer v6 ===-->
+    <div id="footer-v6" class="footer-v6">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- About Us -->
+                    <div class="col-md-3 sm-margin-bottom-40">
+                        <div class="heading-footer"><h2>Social Media</h2></div>
+                        <ul class="list-inline dark-social pull-left space-bottom-0">
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Facebook" href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Twitter" href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="LinkedIn" href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Google plus" href="#">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <!--<li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Pinterest" href="#">
+                                    <i class="fa fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Instagram" href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Tumblr" href="#">
+                                    <i class="fa fa-tumblr"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Youtube" href="#">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Soundcloud" href="#">
+                                    <i class="fa fa-soundcloud"></i>
+                                </a>
+                            </li>-->
+                        </ul>
+                    </div>
+                    <!-- End About Us -->
+
+                    <!-- Recent News -->
+                    <div class="col-md-3 sm-margin-bottom-40">
+                        <div class="heading-footer"><h2>Recent News</h2></div>
+                        <ul class="list-unstyled link-news">
+                            <li>
+                                <a href="#">Apple Conference</a>
+                                <small>12 July, 2014</small>
+                            </li>
+                            <li>
+                                <a href="#">Bootstrap Update</a>
+                                <small>12 July, 2014</small>
+                            </li>
+                            <li>
+                                <a href="#">Themeforest Templates</a>
+                                <small>12 July, 2014</small>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Recent News -->
+
+                    <!-- Useful Links -->
+                    <div class="col-md-3 sm-margin-bottom-40">
+                        <div class="heading-footer"><h2>Useful Links</h2></div>
+                        <ul class="list-unstyled footer-link-list">
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <!-- End Useful Links -->
+
+                    <!-- Contacts -->
+                    <div class="col-md-3">
+                        <div class="heading-footer"><h2>Contacts</h2></div>
+                        <ul class="list-unstyled contacts">
+                            <li>
+                                <i class="radius-3x fa fa-map-marker"></i>
+                                Ortigas. Pasig, Metro Manila
+                            </li>
+                            <li>
+                                <i class="radius-3x fa fa-phone"></i>
+                                (+63)9*********
+                            </li>
+                            <li>
+                                <i class="radius-3x fa fa-envelope"></i>
+                                <a href="#">team@krumbs.ph</a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Contacts -->
+                </div>
+            </div><!--/container -->
+        </div>
+
+        <!--<div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 sm-margon-bottom-10">
+                        <ul class="list-inline terms-menu">
+                            <li class="silver">Copyright © 2014 - All Rights Reserved</li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy and Policy</a></li>
+                            <li><a href="#">License</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-inline dark-social pull-right space-bottom-0">
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Facebook" href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Twitter" href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Vine" href="#">
+                                    <i class="fa fa-vine"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Google plus" href="#">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Pinterest" href="#">
+                                    <i class="fa fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Instagram" href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Tumblr" href="#">
+                                    <i class="fa fa-tumblr"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Youtube" href="#">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Soundcloud" href="#">
+                                    <i class="fa fa-soundcloud"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </div>
+    <!--=== End Footer v6 ===-->
+</div>
+
+<!-- JS Global Compulsory -->
+<script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script><!--Place CDN-->
+<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script><!--Place CDN-->
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script><!--Place CDN-->
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script><!--Place CDN-->
+
+<script type="text/javascript" src="assets/plugins/smoothScroll.js"></script><!--Place CDN-->
+
+<script type="text/javascript" src="assets/plugins/jquery.parallax.js"></script><!--Place CDN-->
+<script type="text/javascript" src="assets/plugins/counter/waypoints.min.js"></script><!--Place CDN-->
+<script type="text/javascript" src="assets/plugins/counter/jquery.counterup.min.js"></script><!--Place CDN-->
+<script type="text/javascript" src="assets/plugins/wow-animations/js/wow.min.js"></script><!--Place CDN-->
+<script src="assets/plugins/animated-headline/js/modernizr.js"></script><!--Place CDN-->
+<script src="assets/plugins/animated-headline/js/animated-headline.js"></script><!--Place CDN-->
+<script type="text/javascript" src="assets/plugins/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+<!-- JS Customization -->
+<script type="text/javascript" src="assets/js/custom.js"></script>
+<!-- JS Page Level -->
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript" src="assets/js/plugins/style-switcher.js"></script>
+<script type="text/javascript" src="assets/js/plugins/cube-portfolio/cube-portfolio-lightbox.js"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+      	App.init();
+        new WOW().init();
+        App.initCounter();
+        App.initParallaxBg();
+        StyleSwitcher.initStyleSwitcher();
+    });
+</script>
+
+
+
+<!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+    <script src="assets/plugins/html5shiv.js"></script>
+    <script src="assets/plugins/placeholder-IE-fixes.js"></script>
+<![endif]-->
+
+</body>
+
+<!-- Cloned by RabinsXP.com-->
+</html>
